@@ -120,7 +120,15 @@ function agregarAlCarrito(productoAgregado) {
     let posicion = carrito.findIndex(p => p.id == productoAgregado.id);
     carrito[posicion].cantidad += 1;
     $(`#${productoAgregado.id}`).html(carrito[posicion].cantidad);
+    Swal.fire({
+      icon: 'success',
+      title: 'Agregaste más productos',
+      text: productoAgregado.nombre,
+      confirmButtonColor: "#444444"
+    });
   }
+
+  
 
   $("#gastoTotal").html(`Total: $ ${calcularTotalCarrito()}`);
   localStorage.setItem("carrito", JSON.stringify(carrito));
@@ -169,3 +177,4 @@ function cargarCarrito() {
     return carrito;
   }
 }
+

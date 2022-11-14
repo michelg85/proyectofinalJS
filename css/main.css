@@ -20,8 +20,8 @@ body {
   margin-top: 10px;
   text-align: center;
   align-self: center;
-  color: #f5f5f5;
-  background-color: #444444; }
+  color: #f2f2f2;
+  background-color: #262624; }
 
 p {
   margin: 0px; }
@@ -55,7 +55,7 @@ header {
 
 footer {
   background-color: #262624;
-  color: #f5f5f5;
+  color: #f2f2f2;
   margin-top: 60px;
   padding: 20px;
   bottom: 0px;
@@ -216,7 +216,7 @@ font-family: oswald, sans-serif;}
           font-size: 2rem;
           align-items: center; }
   .section-contacto .form-contacto section {
-    background-color: #a397a3d5;
+    background-color: #947e94d5;
     padding: 40px;
     border-radius: 10px;
     width: 90vh; 
